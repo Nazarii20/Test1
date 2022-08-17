@@ -1,0 +1,144 @@
+body{
+    position: relative;
+    
+}
+.result{
+    width: 800px;
+    height: 300px;
+    background-color: gainsboro;
+    border-radius: 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border: 1px solid grey;
+}
+.edit{
+    width: 800px;
+    height: 300px;
+    background-color: gainsboro;
+    border-radius: 4px;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid grey;
+}
+.forbuttons{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    margin-top: 30px;
+}
+.edit-button{
+    background-color: yellow;
+    height: 30px;
+    width: 70px;
+    border-radius: 4px;
+}
+.style-button{
+    background-color: blue;
+    height: 30px;
+    width: 70px;
+    border-radius: 4px;
+}
+.fortextarea{
+   
+    margin-left: 30px;
+    padding-top: 40px;
+}
+#textareaforelements{
+    width: 730px;
+    height: 150px;
+    
+}
+.visibilityfortext{
+     visibility: hidden; 
+    z-index: 2;
+    position: absolute;
+}
+.add-button{
+    background-color: red;
+    height: 30px;
+    width: 70px;
+    border-radius: 4px;
+}
+.save-button{
+    background-color: green;
+    height: 30px;
+    width: 70px;
+    border-radius: 4px;
+}
+.twobuttons{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.visibilityforstyle{
+z-index: 1;
+position: absolute;
+width: 600px;
+visibility: hidden;
+}
+.form{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.formforfonts{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.sel{
+    margin-top: 10px;
+    width: 200px;
+    height: 30px;
+    border-radius: 3px;
+}
+.color{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.ff{
+    margin-top: 10px;
+    border-radius: 3px;
+    width: 120px;
+    background-color: grey;
+    height: 30px;
+    color: aliceblue;
+    margin-left: 20px;
+}
+.fff{
+    margin-top: 10px;
+    border-radius: 3px;
+    width: 120px;
+    background-color: grey;
+    height: 30px;
+    color: aliceblue;
+    margin-left: 20px;
+}
+.ffff{
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.text-width{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.Tbl-color{
+    position: absolute;
+    z-index: 2;
+    visibility: hidden;
+    margin-left: 500px;
+    margin-top: 75px;
+}
+.Tbl-background-color{
+    position: absolute;
+    z-index: 3;
+    visibility: hidden;
+    margin-left: 500px;
+    margin-top: 75px;
+}
+

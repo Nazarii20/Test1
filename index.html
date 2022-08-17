@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>  
+    <link rel="stylesheet" href="./index.css">  
+</head>
+<body>
+    <div class="result">
+          
+    </div>
+    <div class="forbuttons">
+    <button class="edit-button">Edit</button>
+    <button class="style-button">Style</button>
+    </div>
+    <div class="edit"> 
+        <div class="visibilityfortext">
+        <div class="fortextarea">
+        <textarea name="changename" id="textareaforelements" cols="30" rows="10"></textarea>
+        </div>
+        <div class="twobuttons">
+        <button class="add-button">Add</button>
+        <button class="save-button">Save</button>
+        </div>
+    </div>
+    <table class="Tbl-color" cellpadding="0" cellspacing="0">
+        <tr>
+        <td onclick="changeFont('red');" style="background-color:red; width: 50px; height: 50px;"></td>
+        <td onclick="changeFont('blue');" style="background-color: blue; width: 50px; height: 50px;"></td>
+        <td onclick="changeFont('green');" style="background-color:green; width: 50px; height: 50px;"></td>
+    </tr><tr>
+        <td onclick="changeFont('black');" style="background-color: black; width: 50px; height: 50px;"></td>
+        <td onclick="changeFont('orange');" style="background-color: orange; width: 50px; height: 50px;"></td>
+        <td onclick="changeFont('pink');" style="background-color: pink; width: 50px; height: 50px;"></td>
+    </tr> <tr>
+        <td onclick="changeFont('white');" style="background-color: white; width: 50px; height: 50px;"></td>
+        <td onclick="changeFont('violet');" style="background-color: violet; width: 50px; height: 50px;"></td>
+        <td onclick="changeFont('teal');" style="background-color: teal; width: 50px; height: 50px;"></td>
+    </tr>
+</table>
+<table class="Tbl-background-color" cellpadding="0" cellspacing="0">
+    <tr>
+    <td onclick="changeBack('red');" style="background-color:red; width: 50px; height: 50px;"></td>
+    <td onclick="changeBack('blue');" style="background-color: blue; width: 50px; height: 50px;"></td>
+    <td onclick="changeBack('green');" style="background-color:green; width: 50px; height: 50px;"></td>
+</tr><tr>
+    <td onclick="changeBack('black');" style="background-color: black; width: 50px; height: 50px;"></td>
+    <td onclick="changeBack('orange');" style="background-color: orange; width: 50px; height: 50px;"></td>
+    <td onclick="changeBack('pink');" style="background-color: pink; width: 50px; height: 50px;"></td>
+</tr> <tr>
+    <td onclick="changeBack('white');" style="background-color: white; width: 50px; height: 50px;"></td>
+    <td onclick="changeBack('violet');" style="background-color: violet; width: 50px; height: 50px;"></td>
+    <td onclick="changeBack('teal');" style="background-color: teal; width: 50px; height: 50px;"></td>
+</tr>
+</table>
+    <div class="visibilityforstyle">
+        <form class="form">
+            <label for="radio">Font size</label>
+            <br>
+            <label class="checkbox-inline">
+              <input type="radio" name="check" class = "twelve" value="">12px
+            </label>
+            <label class="checkbox-inline">
+              <input type="radio" name="check" class="fourteen" value="">14px
+            </label>
+            <label class="checkbox-inline">
+              <input type="radio" name="check" class="sixteen" value="">16px
+            </label>
+            <label class="checkbox-inline">
+                <input type="radio" name="check" class="eighteen" value="">18px
+              </label>
+              <label class="checkbox-inline">
+                <input type="radio" name="check" class="twenty" value="">20px
+              </label>
+          </form> 
+          <form class ="formforfonts">
+          <label for="fonts">Font-family</label>
+          <br>
+          <select class = "sel" name="fonts" id="fonts" onchange="changeFontStyle (this);">
+          <option >Choose option</option>
+         <option value="Cursive">Cursive</option>
+         <option value="Fantasy">Fantasy</option>
+         <option value="Monospace">Monospace</option>
+         <option value="Sens-serif">Sens-serif</option>
+          </select>
+        </form>
+        
+      
+        <label class="ffff">Colors:</label> <br>
+        <button class="ff">Color</button>
+        <button class="fff">Background</button>
+        <form class="text-width">
+            <label class="style-text-width">Style:</label><br>
+            <input type="checkbox" name="checkbox" onclick="onlyOneone(this)" class="Bold"> Bold text
+            <input type="checkbox" name="checkbox" onclick="onlyOneone(this)" class="Normal"> Curvise text
+        </form>
+            
+
+            </div>
+          </div>
+    
+     
+    <script src="./scpript.js"></script>
+</body>
+</html>
